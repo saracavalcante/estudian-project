@@ -1,0 +1,139 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+* {
+  box-sizing: border-box; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125rem; }
+
+a {
+  text-decoration: none; }
+
+button {
+  font-family: "Poppins", sans-serif; }
+
+.container {
+  padding: 0 1.875em; }
+
+.login {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.875em; }
+  .login .login__logo {
+    width: 100%;
+    font-weight: 600;
+    text-align: right; }
+    .login .login__logo a {
+      color: #0058AA; }
+  .login .login__title {
+    color: #0058AA;
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: .5em;
+    width: 100%;
+    text-align: left; }
+  .login .login__img {
+    margin-bottom: 1em;
+    height: 270px;
+    width: 244px; }
+  .login .login__desc {
+    color: #B7B7B7;
+    margin-bottom: 2em; }
+    .login .login__desc a {
+      color: #3FBDF1; }
+  .login .login__input {
+    width: 100%; }
+    .login .login__input input {
+      border-radius: 11px;
+      border: 2px solid #B7B7B7;
+      color: #2E2E2E;
+      padding: 1em; }
+    .login .login__input .login__input--label {
+      color: #0058AA;
+      margin-bottom: .5em; }
+    .login .login__input .login__input--email {
+      display: flex;
+      flex-direction: column;
+      position: relative; }
+      .login .login__input .login__input--email .fa-envelope {
+        color: #B7B7B7;
+        padding-right: 1em;
+        position: absolute;
+        right: 0;
+        top: 41px; }
+    .login .login__input .login__input--password {
+      display: flex;
+      flex-direction: column;
+      position: relative; }
+      .login .login__input .login__input--password .fa-eye {
+        color: #B7B7B7;
+        padding-right: 1em;
+        position: absolute;
+        right: 0;
+        top: 41px; }
+    .login .login__input .input {
+      margin-bottom: 1.5em; }
+    .login .login__input .login__button {
+      background: #0058AA;
+      border-style: none;
+      border-radius: 11px;
+      cursor: pointer;
+      color: #fff;
+      letter-spacing: 2px;
+      margin-bottom: 3em;
+      padding: 1em;
+      text-transform: uppercase;
+      width: 100%; }
+    .login .login__input .login__pass {
+      text-align: center; }
+      .login .login__input .login__pass a {
+        color: #B7B7B7; }
+        .login .login__input .login__pass a:hover {
+          color: #3FBDF1; }
