@@ -11,11 +11,15 @@
   .login__logo {
     width: 100%;
     font-weight: 600;
-    text-align: right;
+    text-align: left;
 
     a {
       color: $medium-persian-blue;
     }
+  }
+
+  .login__info--desktop {
+    display: none;
   }
 
   .login__title {
@@ -24,7 +28,7 @@
     font-weight: 700;
     margin-bottom: .5em;
     width: 100%;
-    text-align: left;
+    text-align: center;
   }
 
   .login__img {
@@ -113,5 +117,9 @@
         }
       }
     }
+  }
+
+  .login__terms--desktop {
+    display: none;
   }
 }
