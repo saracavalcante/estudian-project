@@ -15,21 +15,23 @@
 <body>
   <div class="container">
     <main class="login">
-        <span class="login__logo"><a href="#">estudian</a></span>
+        <div class="wrapper">
+          <span class="login__logo"><a href="#">estudian</a></span>
 
-        <div class="container__img">
-          <img class="login__img" src="assets/images/login-img.png" alt="Login Image">
+          <div class="container__img">
+            <img class="login__img" src="assets/images/login-img.png" alt="Login Image">
+          </div>
         </div>
-
-        <div class="login__info--desktop">
-          <p>Start your journey</p>
-          <h1>Sing In to estudian.</h1>
-        </div>
-
-        <h1 class="login__title">Sing In.</h1>
-        <h2 class="login__desc">Don't have an account? <a href="#">Sing Up.</a></h2>
-
+        
         <div class="login__input">
+          <div class="login__info--desktop">
+            <p class="login__text--desktop">Start your journey</p>
+            <h1 class="login__title--desktop">Sing In to estudian.</h1>
+          </div>
+
+          <h1 class="login__title">Sing In.</h1>
+          <h2 class="login__desc">Don't have an account? <a href="#">Sing Up.</a></h2>
+          
           <div class="login__input--email input">
             <label class="login__input--label" for="email">E-Mail</label>
             <input type="email">
@@ -44,10 +46,12 @@
           
           <button class="login__button">Sing In</button>
           <h3 class="login__pass"><a href="#">Forgot your password?</a></h3>
-        </div>
 
-        <p class="login__terms--desktop">By continuing you agree to our
-        <a href="#">Terms & Conditions and Privacy Policy</a>.</p>
+          <div class="terms">
+            <p class="login__terms--desktop">By continuing you agree to our
+            <a href="#">Terms & Conditions and Privacy Policy</a>.</p>
+          </div>
+        </div>
     </main>
   </div>
 </body>
