@@ -157,6 +157,7 @@
     justify-content: center;
     width: 100vw;
     height: 100vh;
+    padding: 0;
   }
 
   .register {
@@ -164,36 +165,36 @@
     background: #fff;
     border-radius: 41px;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: center;
     margin-top: 0;
     position: relative;
-    padding: 3em;
+    padding: 3em 2em 3em 3em;
 
     &::after {
       content: '';
       background: $alice-blue;
       border-radius: 41px;
-      width: 540px;
+      width: 510px;
       position: absolute;
       height: 639px;
       top: 0;
-      left: 0;
+      right: 0;
     }
   }
 
   .wrapper {
     width: 100%;
     z-index: 1;
-    margin-right: 2em;
+    margin-right: 0;
 
     .container__img {
       width: 100%;
       margin-top: 1em;
   
       .register__img {
-        width: 449px;
-        height: 495px;
+        width: 475px;
+        height: 475px;
         margin: 0 auto;
       }
     }
@@ -201,11 +202,12 @@
 
   .register__logo {
     font-size: 24px;
+    margin-left: 2em;
   }
 
   .register__input {
     max-width: 400px;
-    margin-left: 3em;
+    margin-right: 3em;
 
     .register__info--desktop {
       color: $medium-persian-blue;
@@ -245,7 +247,7 @@
   .terms {
     width: 100%;
     text-align: center;
-    margin-top: 2em;
+    margin-top: 1em;
 
     .register__terms--desktop {
       display: inline-block;
