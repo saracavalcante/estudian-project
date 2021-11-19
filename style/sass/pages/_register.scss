@@ -2,7 +2,7 @@
   padding: 0 1.875em;
 }
 
-.login {
+.register {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -13,7 +13,7 @@
   width: 100%;
 }
 
-.login__logo {
+.register__logo {
   width: 100%;
   font-weight: 600;
   text-align: left;
@@ -23,11 +23,11 @@
   }
 }
 
-.login__info--desktop {
+.register__info--desktop {
   display: none;
 }
 
-.login__title {
+.register__title {
   color: $medium-persian-blue;
   font-size: 2.25rem;
   font-weight: 700;
@@ -41,14 +41,14 @@
   align-items: center;
   justify-content: center;
 
-  .login__img {
+  .register__img {
     margin-bottom: 1em;
-    height: 270px;
-    width: 244px;
+    height: 322px;
+    width: 322px;
   }
 }
 
-.login__desc {
+.register__desc {
   color: $philippine-silver;
   margin-bottom: 2em;
   text-align: center;
@@ -58,7 +58,7 @@
   }
 }
 
-.login__input {
+.register__input {
   width: 100%;
 
   input {
@@ -69,12 +69,26 @@
   }
 }
 
-.login__input--label {
+.register__input--label {
   color: $medium-persian-blue;
   margin-bottom: .5em;
 }
 
-.login__input--email {
+.register__input--username {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  .fa-user {
+    color: $philippine-silver;
+    padding-right: 1em;
+    position: absolute;
+    right: 0;
+    top: 41px;
+  }
+}
+
+.register__input--email {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -88,7 +102,7 @@
   }
 }
 
-.login__input--password {
+.register__input--password {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -106,7 +120,7 @@
   margin-bottom: 1.5em;
 }
 
-.login__button {
+.register__button {
   background: $medium-persian-blue;
   border-style: none;
   border-radius: 11px;
@@ -119,7 +133,7 @@
   width: 100%;
 }
 
-.login__pass {
+.register__pass {
   text-align: center;
 
   a {
@@ -131,7 +145,7 @@
   }
 }
 
-.login__terms--desktop {
+.register__terms--desktop {
   display: none;
 }
 
@@ -145,7 +159,7 @@
     height: 100vh;
   }
 
-  .login {
+  .register {
     align-items: center;
     background: #fff;
     border-radius: 41px;
@@ -177,7 +191,7 @@
       width: 100%;
       margin-top: 1em;
   
-      .login__img {
+      .register__img {
         width: 449px;
         height: 495px;
         margin: 0 auto;
@@ -185,26 +199,26 @@
     }
   }
 
-  .login__logo {
+  .register__logo {
     font-size: 24px;
   }
 
-  .login__input {
+  .register__input {
     max-width: 400px;
     margin-left: 3em;
 
-    .login__info--desktop {
+    .register__info--desktop {
       color: $medium-persian-blue;
       display: block;
   
-      .login__text--desktop {
+      .register__text--desktop {
         text-transform: uppercase;
         letter-spacing: 2px;
         margin-bottom: .5em;
         font-size: 1.188rem;
       }
 
-      .login__title--desktop {
+      .register__title--desktop {
         font-size: 2.25rem;
         font-weight: 700;
         margin-bottom: .5em;
@@ -212,19 +226,19 @@
     }
   }
 
-  .login__title {
+  .register__title {
     display: none;
   }
 
-  .login__button {
+  .register__button {
     margin-bottom: 1em;
   }
 
-  .login__desc {
+  .register__desc {
     text-align: left;
   }
 
-  .login__pass {
+  .register__pass {
     text-align: right;
   }
 
@@ -233,7 +247,7 @@
     text-align: center;
     margin-top: 2em;
 
-    .login__terms--desktop {
+    .register__terms--desktop {
       display: inline-block;
       line-height: 1.5em;
       color: $philippine-silver;

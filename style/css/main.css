@@ -187,7 +187,7 @@ button {
       border-radius: 41px;
       width: 540px;
       position: absolute;
-      height: 620px;
+      height: 639px;
       top: 0;
       left: 0; }
   .wrapper {
@@ -201,6 +201,8 @@ button {
         width: 449px;
         height: 495px;
         margin: 0 auto; }
+  .login__logo {
+    font-size: 24px; }
   .login__input {
     max-width: 400px;
     margin-left: 3em; }
@@ -234,4 +236,195 @@ button {
       color: #B7B7B7;
       font-size: 1rem; }
       .terms .login__terms--desktop a {
+        color: #3FBDF1; } }
+
+.container {
+  padding: 0 1.875em; }
+
+.register {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.875em; }
+
+.wrapper {
+  width: 100%; }
+
+.register__logo {
+  width: 100%;
+  font-weight: 600;
+  text-align: left; }
+  .register__logo a {
+    color: #0058AA; }
+
+.register__info--desktop {
+  display: none; }
+
+.register__title {
+  color: #0058AA;
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: .5em;
+  width: 100%;
+  text-align: center; }
+
+.container__img {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .container__img .register__img {
+    margin-bottom: 1em;
+    height: 322px;
+    width: 322px; }
+
+.register__desc {
+  color: #B7B7B7;
+  margin-bottom: 2em;
+  text-align: center; }
+  .register__desc a {
+    color: #3FBDF1; }
+
+.register__input {
+  width: 100%; }
+  .register__input input {
+    border-radius: 11px;
+    border: 2px solid #B7B7B7;
+    color: #2E2E2E;
+    padding: 1em; }
+
+.register__input--label {
+  color: #0058AA;
+  margin-bottom: .5em; }
+
+.register__input--username {
+  display: flex;
+  flex-direction: column;
+  position: relative; }
+  .register__input--username .fa-user {
+    color: #B7B7B7;
+    padding-right: 1em;
+    position: absolute;
+    right: 0;
+    top: 41px; }
+
+.register__input--email {
+  display: flex;
+  flex-direction: column;
+  position: relative; }
+  .register__input--email .fa-envelope {
+    color: #B7B7B7;
+    padding-right: 1em;
+    position: absolute;
+    right: 0;
+    top: 41px; }
+
+.register__input--password {
+  display: flex;
+  flex-direction: column;
+  position: relative; }
+  .register__input--password .fa-eye {
+    color: #B7B7B7;
+    padding-right: 1em;
+    position: absolute;
+    right: 0;
+    top: 41px; }
+
+.input {
+  margin-bottom: 1.5em; }
+
+.register__button {
+  background: #0058AA;
+  border-style: none;
+  border-radius: 11px;
+  cursor: pointer;
+  color: #fff;
+  letter-spacing: 2px;
+  margin-bottom: 3em;
+  padding: 1em;
+  text-transform: uppercase;
+  width: 100%; }
+
+.register__pass {
+  text-align: center; }
+  .register__pass a {
+    color: #B7B7B7; }
+    .register__pass a:hover {
+      color: #3FBDF1; }
+
+.register__terms--desktop {
+  display: none; }
+
+@media (min-width: 1040px) {
+  .container {
+    align-items: center;
+    background: #3FBDF1;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh; }
+  .register {
+    align-items: center;
+    background: #fff;
+    border-radius: 41px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0;
+    position: relative;
+    padding: 3em; }
+    .register::after {
+      content: '';
+      background: #EFF5FF;
+      border-radius: 41px;
+      width: 540px;
+      position: absolute;
+      height: 639px;
+      top: 0;
+      left: 0; }
+  .wrapper {
+    width: 100%;
+    z-index: 1;
+    margin-right: 2em; }
+    .wrapper .container__img {
+      width: 100%;
+      margin-top: 1em; }
+      .wrapper .container__img .register__img {
+        width: 449px;
+        height: 495px;
+        margin: 0 auto; }
+  .register__logo {
+    font-size: 24px; }
+  .register__input {
+    max-width: 400px;
+    margin-left: 3em; }
+    .register__input .register__info--desktop {
+      color: #0058AA;
+      display: block; }
+      .register__input .register__info--desktop .register__text--desktop {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: .5em;
+        font-size: 1.188rem; }
+      .register__input .register__info--desktop .register__title--desktop {
+        font-size: 2.25rem;
+        font-weight: 700;
+        margin-bottom: .5em; }
+  .register__title {
+    display: none; }
+  .register__button {
+    margin-bottom: 1em; }
+  .register__desc {
+    text-align: left; }
+  .register__pass {
+    text-align: right; }
+  .terms {
+    width: 100%;
+    text-align: center;
+    margin-top: 2em; }
+    .terms .register__terms--desktop {
+      display: inline-block;
+      line-height: 1.5em;
+      color: #B7B7B7;
+      font-size: 1rem; }
+      .terms .register__terms--desktop a {
         color: #3FBDF1; } }
