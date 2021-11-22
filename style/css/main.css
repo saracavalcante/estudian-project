@@ -58,6 +58,12 @@ a {
 button {
   font-family: "Poppins", sans-serif; }
 
+@keyframes floating-login {
+  0%, 100% {
+    transform: translateY(0rem); }
+  50% {
+    transform: translateY(-0.5rem); } }
+
 .container {
   padding: 0 1.875em; }
 
@@ -200,7 +206,8 @@ button {
       .wrapper .container__img .login__img {
         width: 449px;
         height: 495px;
-        margin: 0 auto; }
+        margin: 0 auto;
+        animation: floating-login 4s linear infinite; }
   .login__logo {
     font-size: 24px; }
   .login__input {
@@ -382,14 +389,14 @@ button {
       height: 639px;
       top: 0;
       right: 0; }
-  .wrapper {
+  .register__wrapper {
     width: 100%;
     z-index: 1;
     margin-right: 0; }
-    .wrapper .container__img {
+    .register__wrapper .container__img {
       width: 100%;
       margin-top: 1em; }
-      .wrapper .container__img .register__img {
+      .register__wrapper .container__img .register__img {
         width: 475px;
         height: 475px;
         margin: 0 auto; }

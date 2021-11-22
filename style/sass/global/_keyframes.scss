@@ -1,0 +1,8 @@
+@keyframes floating-login {
+  0%, 100% {
+    transform: translateY(0rem);
+  }
+  50% {
+    transform: translateY(-0.5rem);
+  }
+}
