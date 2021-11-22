@@ -64,6 +64,12 @@ button {
   50% {
     transform: translateY(-0.5rem); } }
 
+@keyframes floating-register {
+  0%, 100% {
+    transform: translateY(0rem); }
+  50% {
+    transform: translateY(-0.5rem); } }
+
 .container {
   padding: 0 1.875em; }
 
@@ -399,7 +405,8 @@ button {
       .register__wrapper .container__img .register__img {
         width: 475px;
         height: 475px;
-        margin: 0 auto; }
+        margin: 0 auto;
+        animation: floating-register 4s linear infinite; }
   .register__logo {
     font-size: 24px;
     margin-left: 2em; }
