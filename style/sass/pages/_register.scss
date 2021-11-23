@@ -109,10 +109,15 @@
 
   .fa-eye {
     color: $philippine-silver;
+    cursor: pointer;
     padding-right: 1em;
     position: absolute;
     right: 0;
     top: 41px;
+
+    &:hover {
+      color: $picton-blue;
+    }
   }
 }
 
@@ -131,6 +136,11 @@
   padding: 1em;
   text-transform: uppercase;
   width: 100%;
+
+  &:hover {
+    letter-spacing: .2em;
+    color: rgba(255, 255, 255, 0.925);
+  }
 }
 
 .register__pass {

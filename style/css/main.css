@@ -145,10 +145,13 @@ button {
   position: relative; }
   .login__input--password .fa-eye {
     color: #B7B7B7;
+    cursor: pointer;
     padding-right: 1em;
     position: absolute;
     right: 0;
     top: 41px; }
+    .login__input--password .fa-eye:hover {
+      color: #3FBDF1; }
 
 .input {
   margin-bottom: 1.5em; }
@@ -158,12 +161,15 @@ button {
   border-style: none;
   border-radius: 11px;
   cursor: pointer;
-  color: #fff;
+  color: #ffffff;
   letter-spacing: 2px;
   margin-bottom: 3em;
   padding: 1em;
   text-transform: uppercase;
   width: 100%; }
+  .login__button:hover {
+    letter-spacing: .2em;
+    color: rgba(255, 255, 255, 0.925); }
 
 .login__pass {
   text-align: center; }
@@ -337,10 +343,13 @@ button {
   position: relative; }
   .register__input--password .fa-eye {
     color: #B7B7B7;
+    cursor: pointer;
     padding-right: 1em;
     position: absolute;
     right: 0;
     top: 41px; }
+    .register__input--password .fa-eye:hover {
+      color: #3FBDF1; }
 
 .input {
   margin-bottom: 1.5em; }
@@ -356,6 +365,9 @@ button {
   padding: 1em;
   text-transform: uppercase;
   width: 100%; }
+  .register__button:hover {
+    letter-spacing: .2em;
+    color: rgba(255, 255, 255, 0.925); }
 
 .register__pass {
   text-align: center; }
