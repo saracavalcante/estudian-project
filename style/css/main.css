@@ -319,18 +319,25 @@ button {
   display: flex;
   flex-direction: column;
   position: relative; }
-  .register__input--username .fa-user {
+  .register__input--username .fas {
     color: #B7B7B7;
     padding-right: 1em;
     position: absolute;
     right: 0;
-    top: 41px; }
+    top: 41px;
+    display: block; }
+  .register__input--username .fa-check-circle {
+    display: none;
+    color: #008000; }
+  .register__input--username .fa-times-circle {
+    display: none;
+    color: #ff0000; }
 
 .register__input--email {
   display: flex;
   flex-direction: column;
   position: relative; }
-  .register__input--email .fa-envelope {
+  .register__input--email .fas {
     color: #B7B7B7;
     padding-right: 1em;
     position: absolute;

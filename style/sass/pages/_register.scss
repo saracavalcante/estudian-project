@@ -79,12 +79,23 @@
   flex-direction: column;
   position: relative;
 
-  .fa-user {
+  .fas {
     color: $philippine-silver;
     padding-right: 1em;
     position: absolute;
     right: 0;
     top: 41px;
+    display: block;
+  }
+
+  .fa-check-circle {
+    display: none;
+    color: #008000;
+  }
+
+  .fa-times-circle {
+    display: none;
+    color: #ff0000;
   }
 }
 
@@ -93,7 +104,7 @@
   flex-direction: column;
   position: relative;
 
-  .fa-envelope {
+  .fas {
     color: $philippine-silver;
     padding-right: 1em;
     position: absolute;
